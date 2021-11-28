@@ -223,7 +223,7 @@ footer{
 } 
 @media screen and (max-width: 590px){
     .container{
-        width: 370px;
+        width:fit-content;
         flex-direction: column;
     }
 } 

@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monda;
+}
+body{
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+header{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 6vw 2vh 12vw;
+    padding: 10px;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    width: fit-content;
+}
+img{
+    max-width: 100;
+    height: auto;
+}
+
+/* resume */
+.container{
+    padding: 20px;
+    position: relative;
+    display: flex;
+}
+
+/* left side */
+.container .container1{
+    margin: 10px;
+    padding: 20px;
+}
+.container .container1 .profile img{
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+
+.container .container1 a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.container .container1 ul{
+    list-style: none;
+}
+.container .container1 .contact{
+    margin-bottom: 30px;
+}
+.container .container1 .skills h3{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container .container1 .skills h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #536976,#292E49);
+    height: 3px;
+    width: 220px;
+}
+.container .container1 .skills, .Languages{
+    margin-bottom: 30px;
+}
+.container .container1 .Languages h3{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container .container1 .Languages h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #536976,#292E49);
+    height: 3px;
+    width: 220px;
+}
+.container .container1 .interests h3{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container .container1 .interests h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #536976,#292E49);
+    height: 3px;
+    width: 220px;
+}
+
+/* right side */
+.container .container2{
+    margin: 10px;
+    padding: 20px;
+}
+.container .container2 ul{
+    list-style: none;
+}
+.container .container2 .title{
+    background:  #3fd4a5;
+    margin: 40px 0 ;
+    padding: 30px;
+    width: 100%;
+}
+.container .container2 .title h3{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container .container2 .title h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #536976,#292E49);
+    height: 3px;
+    width: 220px;
+}
+.container .container2 .ssss{
+    position: relative;
+    margin-bottom: 10px;
+}
+.container .container2 .ssss::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #536976,#292E49);
+    height: 3px;
+    width: 100%;
+}
+.container .container2 .education,
+.container .container2 .techskill,
+.container .container2 .certificates,
+.container .container2 .experience{
+    margin-bottom: 20px;
+}
+.container .container2 .certificates a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.container .container2 .t1{
+    margin-top: 10px;
+}
+
+.container .container2 .t3{
+    font-weight: 100;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_content h4{
+    font-size: 1.8em;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: #fff;
+}
+.footer_content .social{
+    list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+}
+.footer_content .social li{
+    margin: 0 15px;
+}
+.footer_content .social li a{
+    color: #fff;
+}
+.footer_content .social li a i{
+    font-size: 1.6rem;
+    transition: color .4s ease;
+}
+.footer_content .social li a:hover i{
+    color: rgb(0, 162, 255);
+    font-size: 2.2rem;
+}
+.footer_bottom{
+    background: #000;
+    padding: 20px 0;
+    color:#fff;
+}
+.footer_bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: uppercase;  
+}
